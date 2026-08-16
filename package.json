@@ -1,0 +1,8 @@
+{
+  "name": "hekmatibrands-com",
+  "private": true,
+  "scripts": {
+    "preview": "npx --yes serve .",
+    "deploy": "npx wrangler@4 pages deploy . --project-name=hekmatibrands-com --branch=main --commit-dirty=true"
+  }
+}
